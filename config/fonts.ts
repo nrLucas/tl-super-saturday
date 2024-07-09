@@ -1,11 +1,18 @@
-import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
+import { Fira_Code as FontMono, Inter as FontSans, Oswald, Orbitron } from "next/font/google";
+
+export const orbitron = Orbitron({
+    subsets: ["latin"],
+});
+
+export const oswald = Oswald({
+    subsets: ["latin"],
+});
 
 export const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
+    subsets: ["latin"],
 });
 
 export const fontMono = FontMono({
-  subsets: ["latin"],
-  variable: "--font-mono",
+    subsets: ["latin"],
 });
+
